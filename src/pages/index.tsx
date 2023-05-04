@@ -8,7 +8,7 @@ export async function getStaticProps() {
       notFound: true,
     };
   }
-  return { props: { info }, revalidate: 5 };
+  return { props: { info }, revalidate: 1 };
 }
 export default function Home({ info }: any) {
   return (
